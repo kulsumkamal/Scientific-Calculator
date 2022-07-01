@@ -53,25 +53,7 @@ $(document).ready(function () {
     } else if (content == "ln") {
       displayString += "ln(";
       evalString += "Math.log(";
-    } /*else if (content == "sin") {
-      displayString += "sin(";
-      evalString += "Math.sin(";
-    } else if (content == "cos") {
-      displayString += "cos(";
-      evalString += "Math.cos(";
-    }else if (content == "tan") {
-      displayString += "tan(";
-      evalString += "Math.tan(";
-    } else if (content == "asin") {
-      displayString += "asin(";
-      evalString += "Math.asin(";
-    } else if (content == "acos") {
-      displayString += "acos(";
-      evalString += "Math.acos(";
-    } else if (content == "atan") {
-      displayString += "atan(";
-      evalString += "Math.atan(";
-    }*/ else if (
+    } else if (
       content == "sin" ||
       content == "cos" ||
       content == "tan" ||
